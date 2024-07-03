@@ -20,7 +20,7 @@ seed_examples:
      Yes, in Hursley House there is a Museum, that covers the history of IBM Hursley Park, IBM UK, and IBM Corp.
  - question: Is there a coffee shop at IBM Hursley
    answer: |
-     Yes, there is a coffee shop behind main reception, they sell drinks and refreshments.
+     Yes, there is a coffee shop behind main reception, they sell drinks and refreshments, there is also a coffee shop by the Stables.
 document:
  repo: https://github.com/MKHamps/ilab_repo.git
  commit: 7e6a2eb
