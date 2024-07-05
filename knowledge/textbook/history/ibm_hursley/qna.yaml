@@ -5,10 +5,10 @@ domain: ibm_speed
 seed_examples:
  - question: Where is IBM SPEED located
    answer: |
-      SPEED is a global team
+      SPEED is a global team, they are not bound to any geography
  - question: How much money can IBM SPEED give you
    answer: |
-     Up to $100K.
+     Up to $100K, per client project.
  - question: What Return on Investment do SPEED expect
    answer: |
      The team expect to realise 100-1000x ROI this can be over a 2 year period
