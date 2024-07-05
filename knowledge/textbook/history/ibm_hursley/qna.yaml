@@ -1,28 +1,25 @@
 version: 2
-task_description: 'Teach the model about IBM Hursley '
+task_description: 'Teach the model about IBM SPEED'
 created_by: MoyaKB
-domain: ibm_hursley
+domain: ibm_speed
 seed_examples:
- - question: Where is IBM Hurlsey
+ - question: Where is IBM SPEED located
    answer: |
-     IBM Hurlsey is located in Hursley Park, near Winchester
- - question: What type of building is Hursley House
+      SPEED is a global team
+ - question: How much money can IBM SPEED give you
    answer: |
-      18th-century Queen Anne style mansion
- - question: What is IBM Hursley
+     Up to $100K.
+ - question: What Return on Investment do SPEED expect
    answer: |
-     IBM Hursley is a research and development laboratory belonging to International Business Machines
- - question: What buildings are on the Hursley site
+     The team expect to realise 100-1000x ROI this can be over a 2 year period
+ - question: What is the profile of a SPEED project
    answer: |
-     There is Hursley House, where the client centre is based and large modern office complex employing over 1500 people
- - question: Is there a museum at Hursley
+     There must always be a client for a SPEED project, with an innovative 'big idea' to drive revenue for IBM
+ - question: What is the SPEED process
    answer: |
-     Yes, in Hursley House there is a Museum, that covers the history of IBM Hursley Park, IBM UK, and IBM Corp.
- - question: Is there a coffee shop at IBM Hursley
-   answer: |
-     Yes, there is a coffee shop behind main reception, they sell drinks and refreshments, there is also a coffee shop by the Stables.
+     We start with a proposal Green Sheet, then a proposal presenation to the board, decisions are made in 48 hours
 document:
- repo: https://github.com/MKHamps/ilab_repo.git
- commit: 7e6a2eb
+ repo: https://github.com/MoyaKB/ilab_repo.git
+ commit: 5664b53
  patterns:
-  - hursley*.md
+  - speed*.md
